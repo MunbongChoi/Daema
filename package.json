@@ -1,0 +1,26 @@
+{
+  "name": "daema",
+  "version": "1.0.0",
+  "description": "webstudy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongs-chigod/Daema.git"
+  },
+  "author": "bongs-chigod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bongs-chigod/Daema/issues"
+  },
+  "homepage": "https://github.com/bongs-chigod/Daema#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}

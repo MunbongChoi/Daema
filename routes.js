@@ -3,10 +3,10 @@ const LOGIN = "/login";
 const LOGOUT = "/logout";
 const JOIN = "/join";
 const WRITING = "/wriring";
-const USER = "/user";
-const ID = "/user/:id";
-const CPW = "/user/:id/change-pw";
-const EDIT = "/user/:id/eidt";
+const USER = "/";
+const ID = "/:id";
+const CPW = "/:id/change-pw";
+const EDIT = "/:id/edit";
 
 const routes = {
   home: HOME, // 결과값 /

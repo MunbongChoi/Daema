@@ -1,5 +1,4 @@
 export const handleUser = (req, res) => {
-  console.log(req);
   res.send("User");
 };
 export const handleID = (req, res) => {
